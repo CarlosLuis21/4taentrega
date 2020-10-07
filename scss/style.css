@@ -1,0 +1,237 @@
+.imagen1 {
+  height: 400px;
+  width: 400px;
+}
+
+body {
+  background: url(../imagenes/flor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 200px;
+}
+
+tr {
+  color: black;
+}
+
+div {
+  color: white;
+}
+
+.parrafo1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.imagen1 {
+  float: right;
+}
+
+.imagen2 {
+  float: left;
+}
+
+.origenes {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.notangrande {
+  font-size: 20px;
+  float: right;
+}
+
+.enlaces {
+  text-decoration: none;
+}
+
+.tabla1 {
+  border: solid 5px #5f5f66;
+  font-family: "Lemonada", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#524e4e), to(white));
+  background-image: linear-gradient(#524e4e, white);
+}
+
+.arribagaleria {
+  font-family: "Lemonada", cursive;
+  font-size: 20px;
+  position: center;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  margin-left: 100px;
+  font-family: "Dancing Script", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+ul {
+  list-style: none;
+  font: size 20;
+  margin: auto;
+  padding: 0;
+  position: fixed;
+  top: 20px;
+  left: 0;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+.MenuDos {
+  font-family: "Lemonada", cursive;
+  font-size: 20px;
+}
+
+.face {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer {
+  font-family: "Dancing Script", cursive;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#524e4e), to(white));
+  background-image: linear-gradient(#524e4e, white);
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+li {
+  -webkit-transition: all 4s;
+  transition: all 4s;
+}
+
+li:hover {
+  background-color: white;
+  padding: 5px;
+  margin: auto;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.grilla2 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.grilla3 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+h1 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
